@@ -8,11 +8,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Login Page</title>
     <script>
+        //VALID FOR PARAMETERS
 		function validateForm() {
             var username = document.getElementById("username").value;
             var usernamePattern = /^[a-zA-Z0-9]{4,}$/; // At least 4 alphanumeric characters
 
-            
             if (!usernamePattern.test(username)) {
                 alert("Username must contain at least 4 alphanumeric characters.");
                 return false;
