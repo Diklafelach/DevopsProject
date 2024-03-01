@@ -17,6 +17,7 @@
                 alert("Username must contain at least 4 alphanumeric characters.");
                 return false;
                 
+                
 			}
 			
 			var password = document.getElementById("password").value;
