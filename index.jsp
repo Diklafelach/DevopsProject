@@ -38,7 +38,7 @@
         Enter Username: <input type="text" name="username" id="username"><br/><br/>
         Enter Password: <input type="password" id="password" name="pass" 
 						>
-						<br/><br/>
+						<br/>
         <input type="submit" value="SUBMIT">
     </form>
 </body>
